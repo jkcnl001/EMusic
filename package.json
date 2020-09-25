@@ -1,10 +1,12 @@
 {
   "name": "ccc_tool",
   "version": "0.1.0",
+  "description": "网易云音乐",
   "private": true,
+  "main": "background.js",
   "scripts": {
     "start": "vue-cli-service electron:serve",
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service electron:serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "electron:build": "vue-cli-service electron:build",
@@ -12,7 +14,7 @@
     "postinstall": "electron-builder install-app-deps",
     "postuninstall": "electron-builder install-app-deps"
   },
-  "main": "src/main.ts",
+
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0-0",
